@@ -1,0 +1,43 @@
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: Roboto;
+}
+
+body {
+    background-image:url('../media/background.webp');
+    background-attachment:fixed;
+    font-size:16px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+    }
+}
+
+li {
+    margin-bottom: 3%;
+    text-align: center;
+    vertical-align: middle;
+    list-style-type: none;
+    width: 91%;
+    height: 100%;
+}
+
+button {
+    float:right;
+    width:30%;
+}
+
+.ghost  { background-color: #FFFFFF }
+.nounours  { background-color: #cc6600 }
+.nicolas  { background-color: #99ddff }
+.pimprenelle  { background-color: #ff1a1a }
+.marchand  { background-color: #009900 }
+.oscar  { background-color: #ff9900 }
